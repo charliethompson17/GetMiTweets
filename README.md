@@ -1,15 +1,18 @@
 # GetMiTweets
-save your tweets and liked tweets
+save anyone's tweets 
+save anyone's liked tweets
+delete all your tweets older than 7 days
 
 ## instructions
-1. retrive api keys and tokens from the twitter developer portal
 
-2. edit credentials in `congig.ini`
-
-3. git clone the repository
+1. git clone the repository
 ```
 git clone https://github.com/charliethompson17/GetMiTweets.git
 ```
+2. retrive api keys and tokens from the twitter developer portal
+
+3. edit credentials in `congig.ini`
+
 4. cd into project directory
 
 5. create virtual environment
@@ -39,7 +42,7 @@ python getUserTweets.py
 python getLikedTweets.py
 ```
 
-`deleteUserTweets.py` deletes all your tweets older than 7 days
+`deleteUserTweets.py` deletes all your tweets older than 7 days staring with the oldest
 ```
 python deleteUserTweets.py
 ```
