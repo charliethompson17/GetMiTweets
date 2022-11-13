@@ -6,15 +6,17 @@ save your tweets and liked tweets
 ```
 git clone https://github.com/charliethompson17/GetMiTweets.git
 ```
-2. create virtual environment
+2. cd into project directory
+
+3. create virtual environment
 ```
-python3 -m venv /path/to/new/virtual/environment
+python3 -m venv venv
 ```
-3. activate virtual environment
+4. activate virtual environment
 ```
 source venv/bin/activate
 ```
-3. install requirments.txt
+5. install requirments.txt
 ```
 pip install -r requirements.txt
 ```
