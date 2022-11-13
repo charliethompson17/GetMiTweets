@@ -1,7 +1,7 @@
 # GetMiTweets
-save anyone's tweets 
-save anyone's liked tweets
-delete all your tweets older than 7 days
+save anyone's tweets  
+  save anyone's liked tweets  
+  delete all your tweets older than 7 days  
 
 ## instructions
 
