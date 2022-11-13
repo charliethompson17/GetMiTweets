@@ -1,7 +1,7 @@
 # GetMiTweets
 save your tweets and liked tweets
 
-##install instructions
+## install instructions
 1. git clone the repository
 ```
 git clone https://github.com/charliethompson17/GetMiTweets.git
