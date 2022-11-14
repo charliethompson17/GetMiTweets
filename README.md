@@ -32,12 +32,12 @@ pip install -r requirements.txt
 1. cd to project directory
 2. ensure the venv is activated
 
-`getUserTweets.py` gets all tweets by the user specified in the config file and saves them to the output file specified in the config file in reverse order
+`getUserTweets.py` gets all tweets by the user and saves them to the output file in reverse order
 ```
 python getUserTweets.py USERNAME USERNAMEs_TWEETS.txt
 ```
 
-`getLikedTwets.py` gets all tweets liked by the user specified in the config file and saves them to the output file specified in the config file
+`getLikedTwets.py` gets all tweets liked by the user and saves them to the output file
 ```
 python getLikedTweets.py USERNAME USERNAMEs_LIKED_TWEETS.txt
 ```
