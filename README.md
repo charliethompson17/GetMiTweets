@@ -34,15 +34,15 @@ pip install -r requirements.txt
 
 `getUserTweets.py` gets all tweets by the user specified in the config file and saves them to the output file specified in the config file in reverse order
 ```
-python getUserTweets.py
+python getUserTweets.py USERNAME USERNAMEs_TWEETS.txt
 ```
 
 `getLikedTwets.py` gets all tweets liked by the user specified in the config file and saves them to the output file specified in the config file
 ```
-python getLikedTweets.py
+python getLikedTweets.py USERNAME USERNAMEs_LIKED_TWEETS.txt
 ```
 
 `deleteUserTweets.py` deletes all your tweets older than 7 days staring with the oldest
 ```
-python deleteUserTweets.py
+python deleteMyTweets.py
 ```
