@@ -12,8 +12,8 @@ access_token = config['twitter']['access_token']
 access_token_secret = config['twitter']['access_token_secret']
 client_id = config['twitter']['client_id']
 client_secret = config['twitter']['client_secret']
-userID = sys.argv[0]
-output_file_name = sys.argv[1]
+userID = sys.argv[1]
+output_file_name = sys.argv[2]
 
 auth = tweepy.OAuth1UserHandler(api_key, api_key_secret, access_token, access_token_secret)
 api = tweepy.API(auth)
